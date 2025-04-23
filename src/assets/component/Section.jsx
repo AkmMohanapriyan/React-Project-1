@@ -1,3 +1,7 @@
+import AboutUs from "../images/about-us-image.jpg";
+import VideoThumb from "../images/video-thumb.jpg";
+import HappyClient from "../images/happyclient-01.jpg";
+
 function Section(){
     return(
     <>
@@ -17,8 +21,7 @@ function Section(){
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          {/* <img src="./src/assets/images/about-us-image.jpg" alt=""> */}
-          <img src="./src/assets/images/about-us-image.jpg" alt="" />
+          <img src={AboutUs} alt="" />
         </div>
       </div>
     </div>
@@ -29,8 +32,7 @@ function Section(){
       <div class="row">
         <div class="col-lg-6">
           <div class="video-thumb">
-            {/* <img src="assets/images/video-thumb.jpg" alt=""> */}
-            <img src="./src/assets/images/video-thumb.jpg" alt="" />
+            <img src={VideoThumb} alt="" />
             <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
           </div>
         </div>
@@ -102,8 +104,7 @@ function Section(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div class="col-lg-5 align-self-center">
-                            {/* <img src="assets/images/happyclient-01.jpg" alt=""> */}
-                            <img src="./src/assets/images/happyclient-01.jpg" alt="" />
+                            <img src={HappyClient} alt="" />
                           </div>
                         </div>
                       </div>
@@ -124,8 +125,7 @@ function Section(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div class="col-lg-5 align-self-center">
-                            {/* <img src="assets/images/happyclient-01.jpg" alt=""> */}
-                            <img src="assets/images/happyclient-01.jpg" alt="" />
+                            <img src={HappyClient} alt="" />
                           </div>
                         </div>
                       </div>
@@ -146,8 +146,7 @@ function Section(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div class="col-lg-5 align-self-center">
-                            {/* <img src="assets/images/happyclient-01.jpg" alt=""> */}
-                            <img src="./src/assets/images/happyclient-01.jpg" alt="" />
+                            <img src={HappyClient} alt="" />
                           </div>
                         </div>
                       </div>
@@ -168,8 +167,7 @@ function Section(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div class="col-lg-5 align-self-center">
-                            {/* <img src="assets/images/happyclient-01.jpg" alt=""> */}
-                            <img src="./src/assets/images/happyclient-01.jpg" alt="" />
+                            <img src={HappyClient} alt="" />
                           </div>
                         </div>
                       </div>
